@@ -70,10 +70,13 @@ const swiper = new Swiper('.swiper', {
    pagination: {
     el: '.swiper-pagination'
    },
+   // Responsive breakpoints for how many slides to show.
    breakpoints: {
+    // 700px+ shows 2
     700: {
         slidesPerView: 2
     },
+    // 1200px+ shows 3
     1200: {
         slidesPerView: 3
     }
