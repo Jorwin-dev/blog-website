@@ -234,6 +234,7 @@ body.light-theme {
     border-left: none;
     background-color: var(--secondary-background-color);
     width: 8rem;
+    color: red;
 }
 
 .form-note {
@@ -248,6 +249,7 @@ body.light-theme {
     border: 2px solid var(--secondary-background-color);
     width: 4rem;
     height: 4rem;
+    display: flex;
 }
 /* Form JavaScript styles */
 .search-form-container.activated {
